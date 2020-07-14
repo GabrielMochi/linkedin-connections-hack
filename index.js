@@ -16,4 +16,4 @@ const sendInvites = () => {
 setTimeout(() => {
   stopScrolling();
   sendInvites();
-}, 5 * 60 * 6000); // 5 minutes
+}, 5 * 60 * 1000); // 5 minutes
